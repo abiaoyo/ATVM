@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ATVM_Tests' do
+  pod 'ATVM', :path => '../'
+  
+  
+end

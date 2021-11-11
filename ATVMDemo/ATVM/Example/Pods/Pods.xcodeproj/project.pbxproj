@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		219FD990090CD4D933B558A7143D2654 /* Pods-ATVM_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 357ED18BA105A42A0C997F37B9FB54D4 /* Pods-ATVM_Tests-dummy.m */; };
+		4A04A17A2B7A70A3B2BF45599D2E4AAB /* ATVM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30BBE8E07F44CE395AB57CDA190C0D1B /* ATVM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ADBACE3EA0CC0FE2E69FE4A113E916F /* Pods-ATVM_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F400148A40ABDFB79B7B0AF9AEA9CF /* Pods-ATVM_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81450EE853958E957316CA6F7CFF5419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A918CC914CB43B281F3686CBBA49FB34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B7CC7C57AB2DD7432406CADFFB74A612 /* ATVM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D825D2F62D154F935F9598B7B591643 /* ATVM-dummy.m */; };
+		BADB586756CB7832F5E8EB64EF964419 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749F547EA5E27498BB26DFE713AA6C4 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		411A25DA927FAB70D73F8D7790A3ED96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02FB1F5A9C69E43E0ACF239924AF7E5D;
+			remoteInfo = ATVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09CC6746B69BA16B51FCB75F3EBB1BF1 /* ATVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATVM.debug.xcconfig; sourceTree = "<group>"; };
+		0A14118797681705858D5871E6FEB911 /* ATVM-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ATVM-Info.plist"; sourceTree = "<group>"; };
+		1D825D2F62D154F935F9598B7B591643 /* ATVM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATVM-dummy.m"; sourceTree = "<group>"; };
+		222241D241172A4726519DBA08CA9A0A /* ATVM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ATVM.modulemap; sourceTree = "<group>"; };
+		2A59746B1D63CB8DCCCC2C81CE666174 /* Pods-ATVM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATVM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		30BBE8E07F44CE395AB57CDA190C0D1B /* ATVM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATVM-umbrella.h"; sourceTree = "<group>"; };
+		357ED18BA105A42A0C997F37B9FB54D4 /* Pods-ATVM_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATVM_Tests-dummy.m"; sourceTree = "<group>"; };
+		374EBEA7D3E4D0DCA3CC0D63FFA5CE99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		455E79FBEF6DC0DD0EAAD6EC27766D22 /* Pods-ATVM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATVM_Tests.modulemap"; sourceTree = "<group>"; };
+		4C60B07D8264863DB7A69DE3005DD245 /* Pods-ATVM_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATVM_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61EE07EC48715F02A35983B587916BC7 /* ATVM-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATVM-prefix.pch"; sourceTree = "<group>"; };
+		637DB8D15472BE76CBF6EFE37E95BF2B /* Pods-ATVM_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATVM_Tests-Info.plist"; sourceTree = "<group>"; };
+		68F400148A40ABDFB79B7B0AF9AEA9CF /* Pods-ATVM_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATVM_Tests-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7749F547EA5E27498BB26DFE713AA6C4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ATVM/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		784D2780C0ED558998F8CD5022A111EC /* Pods-ATVM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATVM_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8FA5376DB4A39E433A1C79261EDC539E /* Pods-ATVM_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ATVM_Tests"; path = Pods_ATVM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		975E5E3F0280CFCD37016002F1500030 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB626FC29CBBCE026E2384112C086D3A /* ATVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATVM.release.xcconfig; sourceTree = "<group>"; };
+		C679CE0E382060E70A3BAC9305A48497 /* ATVM.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ATVM.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E164D58D04B1D0CC6F9CD727BD7F1336 /* ATVM */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ATVM; path = ATVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A2D7963BF1C3D72D36807F43784C8B /* Pods-ATVM_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATVM_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7E93E67291312D45CBE8C1E160B5B66 /* Pods-ATVM_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATVM_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		373107DCCC4A39222D22D3F816677458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A918CC914CB43B281F3686CBBA49FB34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0221DFDA95DEAC578FA100189EA9C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81450EE853958E957316CA6F7CFF5419 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01709CAFB92A869CFFEF7E09CC8BAF9A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6CD1415407F8401C2BAF054181BF6E4 /* ATVM */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1F6EAF278934665FFC9D9B5034B2718C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C679CE0E382060E70A3BAC9305A48497 /* ATVM.podspec */,
+				975E5E3F0280CFCD37016002F1500030 /* LICENSE */,
+				374EBEA7D3E4D0DCA3CC0D63FFA5CE99 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2F9DAE7CD10136820EF0505DE5C5A871 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0B35D4309A62451830D461004A53E3D /* Pods-ATVM_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		39D6CF6E987575D6CAF96A51B9C2AFE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				222241D241172A4726519DBA08CA9A0A /* ATVM.modulemap */,
+				1D825D2F62D154F935F9598B7B591643 /* ATVM-dummy.m */,
+				0A14118797681705858D5871E6FEB911 /* ATVM-Info.plist */,
+				61EE07EC48715F02A35983B587916BC7 /* ATVM-prefix.pch */,
+				30BBE8E07F44CE395AB57CDA190C0D1B /* ATVM-umbrella.h */,
+				09CC6746B69BA16B51FCB75F3EBB1BF1 /* ATVM.debug.xcconfig */,
+				BB626FC29CBBCE026E2384112C086D3A /* ATVM.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ATVM";
+			sourceTree = "<group>";
+		};
+		4AC93B24AC9FAAFE5ACD92EC46D39A20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E164D58D04B1D0CC6F9CD727BD7F1336 /* ATVM */,
+				8FA5376DB4A39E433A1C79261EDC539E /* Pods-ATVM_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A0B35D4309A62451830D461004A53E3D /* Pods-ATVM_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				455E79FBEF6DC0DD0EAAD6EC27766D22 /* Pods-ATVM_Tests.modulemap */,
+				E3A2D7963BF1C3D72D36807F43784C8B /* Pods-ATVM_Tests-acknowledgements.markdown */,
+				4C60B07D8264863DB7A69DE3005DD245 /* Pods-ATVM_Tests-acknowledgements.plist */,
+				357ED18BA105A42A0C997F37B9FB54D4 /* Pods-ATVM_Tests-dummy.m */,
+				E7E93E67291312D45CBE8C1E160B5B66 /* Pods-ATVM_Tests-frameworks.sh */,
+				637DB8D15472BE76CBF6EFE37E95BF2B /* Pods-ATVM_Tests-Info.plist */,
+				68F400148A40ABDFB79B7B0AF9AEA9CF /* Pods-ATVM_Tests-umbrella.h */,
+				2A59746B1D63CB8DCCCC2C81CE666174 /* Pods-ATVM_Tests.debug.xcconfig */,
+				784D2780C0ED558998F8CD5022A111EC /* Pods-ATVM_Tests.release.xcconfig */,
+			);
+			name = "Pods-ATVM_Tests";
+			path = "Target Support Files/Pods-ATVM_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				01709CAFB92A869CFFEF7E09CC8BAF9A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4AC93B24AC9FAAFE5ACD92EC46D39A20 /* Products */,
+				2F9DAE7CD10136820EF0505DE5C5A871 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6CD1415407F8401C2BAF054181BF6E4 /* ATVM */ = {
+			isa = PBXGroup;
+			children = (
+				7749F547EA5E27498BB26DFE713AA6C4 /* ReplaceMe.swift */,
+				1F6EAF278934665FFC9D9B5034B2718C /* Pod */,
+				39D6CF6E987575D6CAF96A51B9C2AFE7 /* Support Files */,
+			);
+			name = ATVM;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AC0C03B15E6265AF3CF84E1F189A2BE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADBACE3EA0CC0FE2E69FE4A113E916F /* Pods-ATVM_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D980EEA29720B2AB78B70C2E9E7BC05F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A04A17A2B7A70A3B2BF45599D2E4AAB /* ATVM-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02FB1F5A9C69E43E0ACF239924AF7E5D /* ATVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B57A7048CC4B03261A4E5246831EDA /* Build configuration list for PBXNativeTarget "ATVM" */;
+			buildPhases = (
+				D980EEA29720B2AB78B70C2E9E7BC05F /* Headers */,
+				5A2F79468862A68218C48F0DC345D51D /* Sources */,
+				9F0221DFDA95DEAC578FA100189EA9C5 /* Frameworks */,
+				A851118D35AEA809A6308F0086359787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATVM;
+			productName = ATVM;
+			productReference = E164D58D04B1D0CC6F9CD727BD7F1336 /* ATVM */;
+			productType = "com.apple.product-type.framework";
+		};
+		290697A3834FFCACED58F509E37863D9 /* Pods-ATVM_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2B217D994B67C0C8815D8BA3DD337C /* Build configuration list for PBXNativeTarget "Pods-ATVM_Tests" */;
+			buildPhases = (
+				AC0C03B15E6265AF3CF84E1F189A2BE5 /* Headers */,
+				4BB1E7A20023C44D341188F6F6010F50 /* Sources */,
+				373107DCCC4A39222D22D3F816677458 /* Frameworks */,
+				DFC8B72C35AA8A8CF7E02BF9AC4CBB6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A01634C5348C99FB6A9025AA8F201429 /* PBXTargetDependency */,
+			);
+			name = "Pods-ATVM_Tests";
+			productName = Pods_ATVM_Tests;
+			productReference = 8FA5376DB4A39E433A1C79261EDC539E /* Pods-ATVM_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4AC93B24AC9FAAFE5ACD92EC46D39A20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02FB1F5A9C69E43E0ACF239924AF7E5D /* ATVM */,
+				290697A3834FFCACED58F509E37863D9 /* Pods-ATVM_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A851118D35AEA809A6308F0086359787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC8B72C35AA8A8CF7E02BF9AC4CBB6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BB1E7A20023C44D341188F6F6010F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219FD990090CD4D933B558A7143D2654 /* Pods-ATVM_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2F79468862A68218C48F0DC345D51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CC7C57AB2DD7432406CADFFB74A612 /* ATVM-dummy.m in Sources */,
+				BADB586756CB7832F5E8EB64EF964419 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A01634C5348C99FB6A9025AA8F201429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ATVM;
+			target = 02FB1F5A9C69E43E0ACF239924AF7E5D /* ATVM */;
+			targetProxy = 411A25DA927FAB70D73F8D7790A3ED96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		91F34A0A18EB9EE2A3A257A1948E39F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A59746B1D63CB8DCCCC2C81CE666174 /* Pods-ATVM_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ATVM_Tests/Pods-ATVM_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATVM_Tests/Pods-ATVM_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96AE8547F0AD4F66FC7F4F0295E4A9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 784D2780C0ED558998F8CD5022A111EC /* Pods-ATVM_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ATVM_Tests/Pods-ATVM_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATVM_Tests/Pods-ATVM_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D86AFE39B18D22945F75D7C051C70003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB626FC29CBBCE026E2384112C086D3A /* ATVM.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ATVM/ATVM-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ATVM/ATVM-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ATVM/ATVM.modulemap";
+				PRODUCT_MODULE_NAME = ATVM;
+				PRODUCT_NAME = ATVM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8C285B40126B42356C8591840E27837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09CC6746B69BA16B51FCB75F3EBB1BF1 /* ATVM.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ATVM/ATVM-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ATVM/ATVM-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ATVM/ATVM.modulemap";
+				PRODUCT_MODULE_NAME = ATVM;
+				PRODUCT_NAME = ATVM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B57A7048CC4B03261A4E5246831EDA /* Build configuration list for PBXNativeTarget "ATVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8C285B40126B42356C8591840E27837 /* Debug */,
+				D86AFE39B18D22945F75D7C051C70003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2B217D994B67C0C8815D8BA3DD337C /* Build configuration list for PBXNativeTarget "Pods-ATVM_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F34A0A18EB9EE2A3A257A1948E39F2 /* Debug */,
+				96AE8547F0AD4F66FC7F4F0295E4A9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

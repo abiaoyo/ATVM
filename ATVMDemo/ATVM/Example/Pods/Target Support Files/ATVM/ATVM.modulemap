@@ -1,0 +1,6 @@
+framework module ATVM {
+  umbrella header "ATVM-umbrella.h"
+
+  export *
+  module * { export * }
+}
