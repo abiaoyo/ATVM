@@ -1,0 +1,47 @@
+PODS:
+  - ATVM (0.1.0)
+  - SnapKit (4.2.0)
+  - SwifterSwift (5.1.0):
+    - SwifterSwift/AppKit (= 5.1.0)
+    - SwifterSwift/CoreGraphics (= 5.1.0)
+    - SwifterSwift/CoreLocation (= 5.1.0)
+    - SwifterSwift/Dispatch (= 5.1.0)
+    - SwifterSwift/Foundation (= 5.1.0)
+    - SwifterSwift/MapKit (= 5.1.0)
+    - SwifterSwift/SceneKit (= 5.1.0)
+    - SwifterSwift/SpriteKit (= 5.1.0)
+    - SwifterSwift/SwiftStdlib (= 5.1.0)
+    - SwifterSwift/UIKit (= 5.1.0)
+  - SwifterSwift/AppKit (5.1.0)
+  - SwifterSwift/CoreGraphics (5.1.0)
+  - SwifterSwift/CoreLocation (5.1.0)
+  - SwifterSwift/Dispatch (5.1.0)
+  - SwifterSwift/Foundation (5.1.0)
+  - SwifterSwift/MapKit (5.1.0)
+  - SwifterSwift/SceneKit (5.1.0)
+  - SwifterSwift/SpriteKit (5.1.0)
+  - SwifterSwift/SwiftStdlib (5.1.0)
+  - SwifterSwift/UIKit (5.1.0)
+
+DEPENDENCIES:
+  - ATVM (from `ATVM`)
+  - SnapKit
+  - SwifterSwift
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - SwifterSwift
+
+EXTERNAL SOURCES:
+  ATVM:
+    :path: ATVM
+
+SPEC CHECKSUMS:
+  ATVM: b857185b426d29920e5b0ae08c0d1b0b1f7a0094
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwifterSwift: a9e8e144832638c2850b43da5feaf9598c6ad65b
+
+PODFILE CHECKSUM: f41e969f490c8bb743cc37bf65be6769c2eda236
+
+COCOAPODS: 1.11.2
